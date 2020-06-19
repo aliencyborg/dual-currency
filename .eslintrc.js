@@ -33,6 +33,7 @@ module.exports = {
         'testem.js',
         'blueprints/*/index.js',
         'config/**/*.js',
+        'fastboot-server.js',
         'lib/*/index.js',
         'server/**/*.js'
       ],
