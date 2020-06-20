@@ -1,0 +1,26 @@
+
+
+
+<nav class="menu flex-1">
+  <div class="flex justify-around bg-yellow-200 bg-opacity-25">
+
+    <LinkTo @route="home" class=" ">
+      <h1 class="mr-3">Home</h1>
+    </LinkTo>
+
+    <LinkTo @route="faq" class="">
+      <h1 class="mr-3">FAQ</h1>
+    </LinkTo>
+    
+    <LinkTo @route="about" class="">
+      <h1 class="mr-3">About</h1>
+    </LinkTo>
+      
+    <LinkTo @route="contact" class="">
+      <h1 class="mr-3">Contact</h1>
+    </LinkTo>
+    
+  </div>
+</nav>
+
+{{yield}}
