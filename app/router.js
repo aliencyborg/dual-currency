@@ -11,4 +11,5 @@ Router.map(function() {
   this.route('about');
   this.route('faq');
   this.route('contact');
+  this.route('dcsexamples');
 });
